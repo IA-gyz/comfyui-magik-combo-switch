@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-magik-combo-switch"
-version = "1.0.0"
-description = 'Magik Combo Switch'
+version = "2.0.0"
+description = 'Magik Combo Switch: one dynamic lazy switch node with a configurable number of input/output pairs'
 authors = [{name = "IA-gyz"}]
 license = {text = "MIT"}
 readme = "README.md"
