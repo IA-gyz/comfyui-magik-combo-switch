@@ -26,7 +26,7 @@ or install via ComfyUI-Manager / the Comfy Registry (publisher `IA-gyz`, pack `c
 
 ## Compatibility
 
-- Dynamic socket counts are implemented by a small frontend extension (`js/magik_combo_switch.js`), which requires a ComfyUI frontend that supports custom node extensions (any current release).
+- Dynamic socket counts are implemented by a small frontend extension (`js/magik_combo_switch.js`), which requires a ComfyUI frontend that supports custom node extensions (any current release). After installing or updating the pack, restart ComfyUI and hard-refresh the browser so the extension is (re)loaded; it is served at `/extensions/<pack-folder>/magik_combo_switch.js`. If sockets do not collapse to the `pairs` value, check the browser console for errors loading that file.
 - The backend imports `comfy.comfy_types.node_typing.IO` when available and falls back to the plain `"*"` wildcard type on older ComfyUI versions, so the node itself also loads on older backends.
 
 ## License
